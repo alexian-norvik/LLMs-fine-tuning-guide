@@ -12,3 +12,10 @@ Understanding LLMs requires tracing the development of language models through s
 
 ### Statistical Language Models (SLMs)
 Emerging in the 1990s, SLMs analyse natural language using probabilistic methods to determine the likelihood of sentences within texts.
+
+### Neural Language Models (NLMs)
+NLMs leverage neural networks to predict word sequences, overcoming SLM limitations. Word vectors enable computers to understand word meanings.
+Tools like Word2Vec represent words in a vector space where semantic relationships are reflected in vector angles.
+NLMs consist of interconnected neurons organised into layers, resembling the human brain's structure.
+The input layer concatenates word vectors, the hidden layer applies a non-linear activation function, and the output layer predicts subsequent words using the softmax function to transform values into a probability distribution.
+
